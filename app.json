@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Cineon",
+    "slug": "cineon",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a1210",
+    "splash": {
+      "backgroundColor": "#0a1210"
+    },
+    "android": {
+      "package": "app.cineon.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f766e"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "app.cineon.mobile",
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-media-library",
+      "expo-camera",
+      "expo-status-bar"
+    ]
+  }
+}

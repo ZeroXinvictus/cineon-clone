@@ -1,0 +1,29 @@
+{
+  "name": "cineon",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "node __tests__/e2e.test.mjs",
+    "render": "node src/render/compositor.js",
+    "export": "node src/render/export.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "typescript": "^5.8.0"
+  },
+  "private": true,
+  "dependencies": {
+    "@types/react": "~19.3.0",
+    "@types/react-native": "^0.72.8",
+    "expo": "^58.0.26",
+    "expo-camera": "~58.0.14",
+    "expo-media-library": "~58.0.14",
+    "expo-status-bar": "~58.0.5",
+    "react": "19.3.0",
+    "react-native": "0.88.1"
+  }
+}

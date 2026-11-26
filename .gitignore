@@ -1,0 +1,13 @@
+node_modules/
+.expo/
+dist/
+build/
+*.hbc
+.env
+.env.local
+.env.*.local
+# keep the generated transpiled .js that the headless Node e2e/render tests
+# import, but they are derived from the .ts sources - ignore them in git and
+# regenerate with the esbuild step if needed. (The .ts is the source of truth.)
+src/**/*.js
+replica/clone-screens/render.mjs/node_modules/
